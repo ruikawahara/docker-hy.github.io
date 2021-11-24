@@ -15,7 +15,7 @@ jobs:
       uses: docker/login-action@v1 
       with:
         username: ${{ secrets.RUI }}
-        password: ${{ secrets.53061508-2871-4e3c-88a9-25a5aff0e4ad }}
+        password: ${{ secrets.4b0a2535-fdb1-41ed-9079-18177a06f925 }}
     
     - name: Build and push
       uses: docker/build-push-action@v2
